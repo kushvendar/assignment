@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import Matrix from './components/Matrix'
+import Logic from './components/Logic'
 function App() {
   return (
   //   <div className='items-center justify-center '>
@@ -21,7 +22,7 @@ function App() {
   //     </div>
   //   </div>
   // 
-  <div><Matrix/></div>
+    <div><Logic/></div>
   )
 }
 
