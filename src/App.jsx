@@ -28,10 +28,10 @@ function App() {
         setTimeout(()=>{
           setBox((oldBox)=>{
             const newBox=[...oldBox]
-            newBox[idx]='orange';
+            newBox[idx]='red';
             return newBox
           })
-        },i*500)
+        },i*300)
       });
   }
 
